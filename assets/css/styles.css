@@ -1,0 +1,157 @@
+General Styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+} */
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #007b9d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Articles */
+.featured-articles {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-articles h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.article-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.article-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    /* background-color: #007bff; */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.newsletter form {
+    margin-top: 20px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+
+#thankYouMessage {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer Section */
+/* .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
